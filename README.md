@@ -112,9 +112,9 @@ An example recording is displayed below:
 
 Below, each dictionary key is explained in detail:
 
-__mbid__: _String_. The URL of the recording MBID in [MusicBrainz](musicbrainz.org)  
-__verified__: _Boolean_. _True_ means all annotations in the recording have been verified by another person within a window of 20 cents to the actual tonic frequency. See _Seeger, C. (1958)_ for the musicological justification of the cent precision. 
-__annotations__: _List_. Holds the list of annotation dictionaries  
+__mbid__: _String_. The URL of the recording MBID in [MusicBrainz](musicbrainz.org).  
+__verified__: _Boolean_. _True_ means all annotations in the recording have been verified by another person within a window of 20 cents to the actual tonic frequency. See _Seeger, C. (1958)_ for the musicological justification of the cent precision.  
+__annotations__: _List_. Holds the list of annotation dictionaries.  
 __time_interval__: _2 x 1 List of Floats_. The start and end time stamp of the tonic annotation in the recording. It is used when the tonic frequency (or symbol) changes within the performance. If there is no change, its value is empty.  
 __citation__: _String_. Relevant research paper the annotation is taken from.  
 __value__: _Float_. The annotation frequency in Hz.  
